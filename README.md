@@ -2,20 +2,23 @@
 
 ![](https://user-images.githubusercontent.com/970858/63474771-d6734700-c469-11e9-83bb-9429da563909.png)
 
-# Iris Classification Notebook
+# Classification Notebooks
 
-This repository contains a Jupyter notebook for classifying the Iris dataset using various classifiers. The notebook covers the entire process from data loading and preprocessing to model training and evaluation.
+This repository contains two Jupyter notebooks. The first one for classifying the Iris dataset using various classifiers. The notebook covers the entire process from data loading and preprocessing to model training and evaluation. The second one introduces an exercise to classify medical data for cancer detection.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Notebook Contents](#notebook-contents)
-- [Evaluation](#evaluation)
-- [Contributing](#contributing)
-- [License](#license)
+- IRIS Dataset
+    - [Introduction](#introduction)
+    - [Dataset](#dataset)
+    - [Setup Instructions](#setup-instructions)
+    - [Usage](#usage)
+    - [Notebook Contents](#notebook-contents)
+    - [Evaluation](#evaluation)
+- Breast Cancer Dataset
+    - [Introduction](#breast-cancer)
+
+# IRIS
 
 ## Introduction
 
@@ -83,4 +86,11 @@ The notebook is structured to guide you through the following steps:
 
 The notebook includes detailed evaluation metrics for each classifier, including accuracy, precision, recall, F1-score, and confusion matrices. This helps in understanding the performance and potential areas for improvement for each model.
 
-Happy Learning!
+# Breast Cancer
+
+This notebook provides a comprehensive guide to classifying breast cancer cases using the Breast Cancer Wisconsin dataset. The main goals are for students to preprocess the data, apply various machine learning algorithms, and evaluate their performance, while also exploring advanced models like Random Forest and Gradient Boosting on their own.
+
+Main Goals:
+- Preprocess the Data: Load, clean, and normalize the Breast Cancer Wisconsin dataset.
+- Apply Machine Learning Algorithms: Train and evaluate k-NN, Decision Tree, and SVM models.
+- [Bonus] Explore Advanced Models: Independently implement and assess Random Forest and Gradient Boosting classifiers.
