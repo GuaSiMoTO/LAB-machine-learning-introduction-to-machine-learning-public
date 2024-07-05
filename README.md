@@ -1,4 +1,4 @@
-# LAB-ExcelFDA-Advanced-Data-Analysis
+# LAB-machine-learning-introduction-to-machine-learning
 
 ![](https://user-images.githubusercontent.com/970858/63474771-d6734700-c469-11e9-83bb-9429da563909.png)
 
@@ -31,8 +31,8 @@ To run the notebook and reproduce the results, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone TBD
-    cd iris-classification
+    git clone https://github.com/codeskills-ai/LAB-machine-learning-introduction-to-machine-learning.git
+    cd LAB-machine-learning-introduction-to-machine-learning
     ```
 
 2. **Create a virtual environment and onstall the required packages**:
@@ -78,8 +78,6 @@ The notebook is structured to guide you through the following steps:
 - **Loading the Dataset**: Instructions to load and explore the Iris dataset.
 - **Data Preprocessing**: Steps to preprocess the data.
 - **Model Training**: Training various classifiers on the dataset.
-- **Evaluation**: Evaluating the performance of the classifiers.
-- **Examples**: Printing examples of correctly and incorrectly classified instances.
 
 ## Evaluation
 
