@@ -92,33 +92,49 @@ This exercise can be developed using **Obviously AI** or the provided notebook. 
 
 This notebook provides a comprehensive guide to classifying breast cancer cases using the Breast Cancer Wisconsin dataset. The main goals are for students to preprocess the data, apply various machine learning algorithms, and evaluate their performance, while also exploring advanced models like Random Forest and Gradient Boosting on their own.
 
-#### Objective
-The goal of this lab is to train a classification model using Obviously AI to predict whether a tumor is malignant or benign based on features extracted from digital biopsy images. Through this exercise, you will learn how to upload a dataset, train a model without writing code, and evaluate its performance.
+---
+
+### Objective
+
+#### Using the Notebook
+The goal of this lab is to train a classification model using Python and Jupyter Notebook to predict whether a tumor is malignant or benign based on features extracted from digital biopsy images. Through this exercise, you will learn how to preprocess data, train machine learning models, and evaluate their performance using metrics like accuracy, precision, recall, and F1-score.
+
+#### Using Obviously AI
+The goal of this lab is to train a classification model using **Obviously AI**, a no-code AutoML platform, to predict whether a tumor is malignant or benign. Through this exercise, you will learn how to upload a dataset, train a model without writing code, and evaluate its performance using an intuitive interface.
 
 ---
 
 ### Instructions
 
-#### Step 1: Upload the Dataset
+#### Using the Notebook
+1. **Load the Dataset**: Use the Breast Cancer Wisconsin dataset from `sklearn.datasets`.
+2. **Preprocess the Data**: Handle missing values, normalize features, and split the data into training and testing sets.
+3. **Train Models**: Implement and evaluate models like k-Nearest Neighbors (k-NN), Decision Trees, and Support Vector Machines (SVM).
+4. **Evaluate Performance**: Analyze metrics such as accuracy, precision, recall, and F1-score.
+5. **Explore Advanced Models**: Optionally, implement Random Forest and Gradient Boosting classifiers.
+
+#### Using Obviously AI
+
+##### Step 1: Upload the Dataset
 - Download the Breast Cancer Wisconsin dataset from the UCI Machine Learning Repository or use the provided CSV file.
 - In Obviously AI, go to the **Datasets** section and select **Upload Dataset**.
 - Upload the CSV file.
 - Verify that the data is correctly uploaded and review the available features.
 
-#### Step 2: Configure the Model
+##### Step 2: Configure the Model
 - Click on **Create a New Model** and choose **Classification** as the model type.
 - Select the target variable (`diagnosis`), which indicates whether the tumor is malignant (M) or benign (B).
 - Ensure that all relevant features are included in the model training.
 
-#### Step 3: Train the Model
+##### Step 3: Train the Model
 - Click on **Predict** to let Obviously AI analyze the data and automatically choose the best classification model.
 - Wait for the platform to train the model and display the results.
 
-#### Step 4: Evaluate the Model
+##### Step 4: Evaluate the Model
 - Analyze the performance metrics provided, such as accuracy, precision, recall, and F1-score.
 - Observe the feature importance graph and reflect on which attributes contribute the most to the prediction.
 
-#### Step 5: Make Predictions
+##### Step 5: Make Predictions
 - Use the **Predict on New Data** option to upload a CSV file containing new data without labels.
 - Download the results and analyze whether the model is reliable for real-world predictions.
 
