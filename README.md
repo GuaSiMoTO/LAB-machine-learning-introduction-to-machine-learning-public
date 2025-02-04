@@ -88,7 +88,44 @@ The notebook includes detailed evaluation metrics for each classifier, including
 
 # Breast Cancer
 
+This exercise can be developed using **Obviously AI** or the provided notebook. Alternatively, students can choose to complete it using both methods.
+
 This notebook provides a comprehensive guide to classifying breast cancer cases using the Breast Cancer Wisconsin dataset. The main goals are for students to preprocess the data, apply various machine learning algorithms, and evaluate their performance, while also exploring advanced models like Random Forest and Gradient Boosting on their own.
+
+#### Objective
+The goal of this lab is to train a classification model using Obviously AI to predict whether a tumor is malignant or benign based on features extracted from digital biopsy images. Through this exercise, you will learn how to upload a dataset, train a model without writing code, and evaluate its performance.
+
+---
+
+### Instructions
+
+#### Step 1: Upload the Dataset
+- Download the Breast Cancer Wisconsin dataset from the UCI Machine Learning Repository or use the provided CSV file.
+- In Obviously AI, go to the **Datasets** section and select **Upload Dataset**.
+- Upload the CSV file.
+- Verify that the data is correctly uploaded and review the available features.
+
+#### Step 2: Configure the Model
+- Click on **Create a New Model** and choose **Classification** as the model type.
+- Select the target variable (`diagnosis`), which indicates whether the tumor is malignant (M) or benign (B).
+- Ensure that all relevant features are included in the model training.
+
+#### Step 3: Train the Model
+- Click on **Predict** to let Obviously AI analyze the data and automatically choose the best classification model.
+- Wait for the platform to train the model and display the results.
+
+#### Step 4: Evaluate the Model
+- Analyze the performance metrics provided, such as accuracy, precision, recall, and F1-score.
+- Observe the feature importance graph and reflect on which attributes contribute the most to the prediction.
+
+#### Step 5: Make Predictions
+- Use the **Predict on New Data** option to upload a CSV file containing new data without labels.
+- Download the results and analyze whether the model is reliable for real-world predictions.
+
+---
+
+**Note:** Students can choose to complete this exercise using Obviously AI, the provided notebook, or both methods to compare results and gain a deeper understanding of the process.
+
 
 Main Goals:
 - Preprocess the Data: Load, clean, and normalize the Breast Cancer Wisconsin dataset.
